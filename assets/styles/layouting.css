@@ -183,6 +183,6 @@
     z-index: 3;
 }
 
-relative1 {
+.fixed {
     z-index: 4;
 }
