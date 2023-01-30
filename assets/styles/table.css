@@ -1,0 +1,32 @@
+table {
+    width: 500px;
+    border-collapse: separate;
+    /* separate(W line) = default */
+}
+
+table tr th {
+    background-color: grey;
+}
+
+table tr td {
+    background-color: burlywood;
+}
+
+/* border-spacing 
+    border-spacing: 1st 2nd;
+        1st value = horizontal (left to right)
+        2nd value = vertical (top to bottom)
+        one value only = both (borizontal & vertical spacing)
+*/
+table {
+    border-spacing: 15px;
+}
+/* Dont forget to put code by descendant */
+/* grand parents -> parents -> children */
+table tr #name {
+    background-color: yellowgreen;
+}
+
+table tr #mail {
+    background-color: orange;
+}

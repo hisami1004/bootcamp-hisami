@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- Form
+            attributes:
+                action = (receiver of the data) where should form-data go after it is submitted
+                method = (how)how the form is passed/how to collect the data
+                placehpolder = another hint/instruction to the user
+            
+                form controls
+                used to control the different data pr values inputted by the user
+    -->
+    
+    <form action="" method="get">
+        <!-- text -->
+        <label for="first-name">First Name</label>
+        <input type="text" name="first-name" id="first-name" placeholder="First Name" required minlength="4" maxlength="10">
+    
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last-name" id="last name" placeholder="Last Name">
+        <br><br>
+
+
+        <!-- password -->
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Password">
+        <br><br>
+
+        <!-- number -->
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" placeholder="Age" min="18" max="60">
+        <br><br>
+
+        <!-- date -->
+        <label for="">Date</label>
+        <input type="date" name="date" id="date">
+        <br><br>
+
+        <!-- email -->
+        <label for="Email"></label>
+        <input type="email" name="email" id="email" placeholder="Email">
+        <br><br>
+
+        <!-- comment/textarea -->
+        <label for="comment">comment</label>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="your comment here"></textarea>
+        <br><br>
+
+        <!-- radio buttons -->
+        <p>Select Gender</p>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- chatbox -->
+        <p>Please select your favorite food:</p>
+        <input type="checkbox" name="fav-food" id="ramen">
+        <label for="">Ramen</label>
+
+        <input type="checkbox" name="fav-food" id="sushi">
+        <label for="">Sushi</label>
+
+        <input type="checkbox" name="fav-food" id="curry">
+        <label for="">Curry</label>
+        <br><br>
+
+        <!-- dropdown list box/select -->
+        <p>what is your device:</p>
+        <select name="device" id="">
+            <option value=""hidden>select device</option>
+            <option value="MacBook">MacBook</option>
+            <option value="ipad">ipad</option>
+            <option value="iphone">iphone</option>         
+        </select>
+        <br><br>
+
+        <!-- select multiple -->
+        <p>select a car:</p>
+        <select name="car" id=""multiple>
+            <option value=""hidden>Cars</option>
+            <option value="toyota">Toyota</option>
+            <option value="suzuki">Suzuki</option>
+            <option value="nissan">Nissan</option>
+        </select>    
+        <br><br>
+
+        <!-- files -->
+        <label for="profile">Profile</label>
+        <input type="file" name="profile" id="profile">
+        </select>
+        <br><br>
+        
+        <!-- buttons -->
+        <input type="submit" value="send" name="send">
+        <button type="submit" name="submit">submit</button>
+        <input type="image" src="images/submit-button.png" alt="button-image" name="submit" width="100px">
+        <input type="reset" value="reset" name="reset">
+
+        <!-- Form validation
+                attribute:
+                        for characters /text only
+                    required = must fill data
+                    minlength = check the minimum numbers of text.
+                    maxlength = chck the maximum text.
+                     
+                        for numbers only
+                    min = value must be greater than or equal to the minimum value
+                    max = maximum value 
+        -->
+
+    </form>
+
+</body>
+</html>

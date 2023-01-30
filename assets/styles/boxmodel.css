@@ -1,0 +1,116 @@
+/* Box Model */
+.box1 {
+    width: 500px;
+    border: 1px solid  red;
+    text-align: center;
+    /* margin: 30px 50px 60px 70px; */
+    /* margin-bottom: 50px; */
+    /* padding: 30px 50px; */
+    /* margin-right: auto ;
+       margin-left: auto;
+       margin-top: 30px; 
+    margin-bottom: 30px; */
+    /* margin: 30px auto; */
+    box-sizing:border-box; 
+    /* maintain the size of the box 
+       not including border */
+    padding-right: 30px;
+}
+
+.box2 {
+    width: 500px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+
+/* hr */
+hr {
+    width: 30%;
+    height: 2px;
+    background-color: red;
+    border: none;
+}
+
+/* CSS Border  */
+.solid {
+    height: 50px;
+    width: 100px;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; */
+    border: 5px solid red;
+    border-top-width: 10px;
+    border-top-color: blue;
+    border-right-style: dotted;
+    border-left-style: double;
+    margin-bottom: 10px;
+}
+
+.dotted {
+    height: 50px;
+    width: 100px;
+    border: 5px dotted teal;
+    margin-bottom: 10px;
+}
+
+.dashed {
+    height: 50px;
+    width: 100px;
+    border: 5px dashed crimson;
+    margin-bottom: 10px;
+}
+
+.double {
+    height: 50px;
+    width: 100px;
+    border: 5px double seagreen;
+    margin-bottom: 10px;
+}
+
+.groove {
+    height: 50px;
+    width: 100px;
+    border: 5px groove purple;
+    margin-bottom: 10px;
+}
+
+.ridge {
+    height: 50px;
+    width: 100px;
+    border: 5px ridge grey;
+    margin-bottom: 10px;
+}
+
+.inset {
+    height: 50px;
+    width: 100px;
+    border: 5px inset dodgerblue;
+    margin-bottom: 10px;
+}
+
+.outset {
+    height: 50px;
+    width: 100px;
+    border: 5px outset goldenrod;
+    margin-bottom: 10px;
+}
+
+.radius {
+    background-color: pink;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    line-height: 100px;
+}
+
+.radius2 {
+    background-color: pink;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 50%;
+    line-height: 150px;
+}
